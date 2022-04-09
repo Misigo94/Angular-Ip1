@@ -9,7 +9,9 @@ import {Quote} from './quote'
 export class AppComponent {
   title: string = 'IP1';
   quote: Quote[] = [
-    { name: "Martin", vote: 2, description: "good"},
+    { name: "Martin", vote: 2, description: "good" },
+    { name: "Mike", vote: 3, description: "very good" },
+    {name:"Brian",vote:4,description:"bad"}
     
   ] 
 }
