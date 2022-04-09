@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+/* @import "~font-awesome/css/font-awesome.css"; */
+
+html body {
+    background-image: url("../src/assets/back2.jpg");
+}
