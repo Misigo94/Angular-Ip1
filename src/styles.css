@@ -2,5 +2,12 @@
 /* @import "~font-awesome/css/font-awesome.css"; */
 
 html body {
+    margin:0;
+    padding:0;
     background-image: url("../src/assets/back2.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center center;
+    height:100vh;
+    opacity:0.8;
 }
