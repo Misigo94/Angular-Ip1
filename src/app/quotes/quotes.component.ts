@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 export class QuotesComponent implements OnInit {
   title = 'welcome to inspiration quotes';
   quotes:Quote[] = [
-      new Quote(1, "Martin", "Life", "Be yourself; everyone else is already taken", "Erica mena", new Date(2019, 7, 16), 0, 0),
+      new Quote(1, "Martin", "Life", "Be yourself; everyone else is already taken", "Erica mena", new Date(2019, 7, 16),0, 0),
       new Quote(2, "Kevin", "Life", "Follow your own star!", "Rocky Johson", new Date(2019, 8, 16), 0, 0),
       new Quote(3,"Bibi","Life","The most exhausting thing in life is being insincere","Wlifred ndindi",new Date(2020,2,3),0,0),
   ];
