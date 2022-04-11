@@ -7,7 +7,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatePipePipe } from './date-count.pipe';
 import { HighlightQouteDirective } from './highlight-quote.directive';
-
+// import * as angularFontawesome from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +19,8 @@ import { HighlightQouteDirective } from './highlight-quote.directive';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    // angularFontawesome.FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

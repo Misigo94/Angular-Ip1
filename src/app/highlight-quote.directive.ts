@@ -19,14 +19,15 @@ import { Directive, ElementRef, HostListener } from '@angular/core';
 })
 export class HighlightQouteDirective {
 
-  constructor(private elem:ElementRef) { 
+  constructor(private elem: ElementRef) { 
+
   }
   @HostListener("click") onClicks(){
     this.textDeco("green")
   }
 
-  @HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
+  @HostListener("dblclick") onDoubleClicks(): void{
+    this.textDeco("none")
   }
   private textDeco(action:string){
     this.elem.nativeElement.style.color=action;

@@ -9,11 +9,12 @@ import { Quote } from '../quote';
 export class QuoteDetailsComponent implements OnInit {
   @Input() quote: Quote;
   @Output() isRead = new EventEmitter<boolean>();
+  likes: number;
   deleteQuote(read: boolean) {
     this.isRead.emit(read);
   }
 
-  upVote(){
+  upVote() {
     this.quote.likes += 1;
   }
   
