@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##  INSTALLATION
+
+Open Terminal {Ctrl+Alt+T}
+
+git clone https://github.com/Misigo94/Angular-Ip1.git
+
+cd IP1
+
+code . or atom . based on the text editor you have.
+
+##Technologies used
+HTML5
+CSS
+[AngulerCLI]
+markdown
+Bootstrap
+
+## Contact information
+Misigomartin@gmail.com
+
+##License 
+MIT License:
